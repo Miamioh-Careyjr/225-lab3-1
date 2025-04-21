@@ -4,10 +4,10 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        DOCKER_IMAGE = 'cithit/maplesgl'                                                 // <------change this
+        DOCKER_IMAGE = 'cithit/Miamioh-Careyjr'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/Maplesgl/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('maplesgl')                                             // <------change this
+        GITHUB_URL = 'https://github.com/Miamioh-Careyjr/225-lab3-1.git'                   // <------change this
+        KUBECONFIG = credentials('Miamioh-Careyjr-255')                                             // <------change this
     }
 
     stages {
